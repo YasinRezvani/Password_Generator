@@ -1,18 +1,20 @@
 ﻿import random
+from beautifultable import BeautifulTable
 
 char = "zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLPOIUYTREWQ1234567890@#$%&*."
 
 lens = int(input("What is the length of the password: "))
-print("\nYour Password:")
-print("---------------------------------")
 
+table = BeautifulTable()
 for pas in range(0 , 5):
     password = ""
     for l in range(lens):
         password += random.choice(char)
-       
-    print(password)    
+    table.rows.append([password])                
+    table.set_style(BeautifulTable.STYLE_BOX_ROUNDED)         
+    table.columns.header = ["Your Password"]
+print(table)
 
-print("---------------------------------")
+
 
 # Made By Yasin Rezvani
