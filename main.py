@@ -1,9 +1,9 @@
 ﻿import random
 from beautifultable import BeautifulTable
 
-char = "zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLPOIUYTREWQ1234567890@#$%&*."
+char = "zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLPOIUYTREWQ1234567890@#$%&*"
 
-lens = int(input("What is the length of the password: "))
+lens = int(input("\nWhat is the length of the password: "))
 
 table = BeautifulTable()
 for pas in range(0 , 5):
