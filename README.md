@@ -1,5 +1,5 @@
 # Password_Generator
-It is password generator use number and symbol and character and we use random mudule to choose password
+Simple password generator by [number , symbol , character]
 # How Work
 #### First you fill the input --> (What is the length of the password: ) for example: 8
 > What is the length of the password: 8  
