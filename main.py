@@ -14,6 +14,7 @@ for pas in range(0 , 5):
     table.set_style(BeautifulTable.STYLE_BOX_ROUNDED)         
     table.columns.header = ["Your Password"]
 print(table)
+input()
 
 
 
