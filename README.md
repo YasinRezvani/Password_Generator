@@ -1,5 +1,10 @@
 # Password_Generator
 Simple password generator by [number , symbol , character]
+# Install the requirements
+First you should install the requirements:
+```
+$ pip install BeautifulTable
+```
 # How Work
 #### First you fill the input --> (What is the length of the password: ) for example: 8
 > What is the length of the password: 8  
