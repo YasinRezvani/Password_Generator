@@ -1,5 +1,5 @@
 # Password_Generator
-Simple password generator by [number , symbol , character]
+Simple CLI password generator by [number , symbol , character]
 # Install the requirements
 First you should install the requirements:
 ```
